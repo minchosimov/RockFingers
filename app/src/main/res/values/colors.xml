@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b7bb6</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fc2121</color>
+
+    <!-- new design-->
+    <color name="gray_bg">#ebebeb</color>
+    <color name="dark_gray_bg">#9f9f9f</color>
+    <color name="dark_gray_bg_routines">#878585</color>
+
+    <color name="blue_bg">#2b7bb6</color>
+
+    <color name="green_bg">#24c2b1</color>
+    <color name="green_button">#00f706</color>
+    <color name="green_button_routine">#31e15f</color>
+
+    <color name="red_bg">#fc2121</color>
+    <color name="purple_bg">#bb3fc6</color>
+    <color name="white_bg">#FFFFFF</color>
+    <color name="black_bg">#000000</color>
+
+    <color name="white_txt">#FFFFFF</color>
+    <color name="black_txt">#000000</color>
+    <color name="yellow_txt">#fff83f</color>
+    <color name="grey_txt">#aea8a8</color>
+
+</resources>

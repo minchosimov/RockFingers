@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">RockFingers</string>
+
+    <!-- string for about -->
+    <string name="activity_about_name">About</string>
+    <string name="image_logo">Logo picture</string>
+    <string name="credits">Credits:</string>
+    <string name="ver">Version </string>
+    <string name="developer">Developer - Mincho Simov</string>
+    <string name="design">UI/UX Designer - Velina Ilieva (vLine-Designs)</string>
+    <string name="emailv">email: velinailieva92@gmail.com</string>
+    <string name="webv">website: vline-designs.artstation.com</string>
+    <string name="rate">Rate this application</string>
+    <string name="feedback">Send feedback</string>
+    <string name="copyright"> &#169; 2017 Rock Finger Free, All rights reserved.</string>
+
+    <!-- Strings related to DoRoutine -->
+    <string name="workout">workout hjfdhfjkhdfkjhdjkfhdjfkhdkjf</string>
+    <string name="thismin">this min hsudsjhdjs \n dhsjhdskjdhkjsh</string>
+    <string name="nexttext">Workouts for the next minute</string>
+    <string name="next">next kjfdklfjdklfj \n jdfkdkfdklfj \n djskdjksdjksj</string>
+    <string name="holdspicture">Holds picture</string>
+    <string name="camppicture">Board picture</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_toggl_on">Resume</string>
+    <string name="btn_toggl_off">Pause</string>
+    <string name="btn_toggl">P/R</string>
+    <string name="title_activity_routines">Routines</string>
+
+    <!-- Strings related to Log -->
+    <string name="log_date_title">Date</string>
+    <string name="title_activity_log">History</string>
+    <string name="delete_button">DELETE</string>
+    <string name="log_routine_title">Routine type</string>
+    <string name="log_total_title">Total</string>
+    <string name="work_name">workout</string>
+
+    <!-- Strings related to main -->
+    <string name="do_routine_name">Do it</string>
+    <string name="total_work">Total workouts</string>
+    <string name="total_txt">total</string>
+    <string name="last_work">Last workout</string>
+    <string name="last_txt">date</string>
+    <string name="avg_work">Average time</string>
+    <string name="avg_txt">duration</string>
+    <string name="routine_text">Select routine:</string>
+    <string name="level_text">Select level:</string>
+    <string name="button_go_main">GO</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="button_close_adv">Close adv</string>
+
+    <!-- Strings related to menu -->
+    <string name="menu_container">Options</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_log">Activity</string>
+    <string name="menu_routine">Routine</string>
+    <string name="menu_routines">Routines</string>
+    <string name="menu_about">About</string>
+
+    <!-- string for routines -->
+    <string name="left_arrow">previous</string>
+    <string name="right_arrow">next</string>
+    <string name="short_label">Short description:</string>
+    <string name="board_picture">Camp picture</string>
+
+    <!-- Strings related to RoutineReset -->
+    <string name="Routine">Routine</string>
+    <string name="button_add">Install</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_edit">Edit</string>
+
+    <!-- Strings related to Settings -->
+    <string name="headtext">Select the time you do one of these </string>
+    <string name="pulluptext">Pull up</string>
+    <string name="shrugtext">Shrugs</string>
+    <string name="kneetext">Knee rises</string>
+    <string name="title_time_setup">Workout timer setup</string>
+    <string name="description_time_seconds">Setup your timer for pull up, knee rises and shrugs</string>
+    <string name="positive_button">Set</string>
+    <string name="negative_button">Cancel</string>
+    <string name="precount">Pre-counting</string>
+    <string name="desciption_precount">Set the time in seconds for the initial delay</string>
+    <string name="alert_title">Invalid input</string>
+    <string name="alert_descr">The entered value is outside the allowed interval</string>
+    <string name="alert_button">OK</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- buy alert dialog -->
+    <string name="title_alert_buy">Buy RockFingers Pro</string>
+    <string name="message_alert_buy">This option is available in the Pro version. \n
+        You can get the pro version right through the buy buttons</string>
+    <string name="buy_button">Buy</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- Strings related to adv -->
+    <string name="banner_ad_unit_id">ca-app-pub-2004347619208318/7146430585</string>
+
+</resources>

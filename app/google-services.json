@@ -1,0 +1,102 @@
+{
+  "project_info": {
+    "project_number": "784576861199",
+    "firebase_url": "https://admob-app-id-5669697389.firebaseio.com",
+    "project_id": "admob-app-id-5669697389",
+    "storage_bucket": "admob-app-id-5669697389.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784576861199:android:d613ac0bf374856e",
+        "android_client_info": {
+          "package_name": "com.mincho.rockfingers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784576861199-9blai9gun9rg020d0199hroqec6a3opg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mincho.rockfingers",
+            "certificate_hash": "92db7ee2a752af071e2a2ea93ce1b2b2fc4d2624"
+          }
+        },
+        {
+          "client_id": "784576861199-ndppispgo7d18bfkojofvhvccc9jlpv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mincho.rockfingers",
+            "certificate_hash": "2b27e0aa437ae24cf34f5f5f7c2b7fcd9df0273c"
+          }
+        },
+        {
+          "client_id": "784576861199-75r9jjtljta6bk9dru28ft8b38sp7duk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Rs4idMJYxab-XUBOlGL8BXGKwzWImL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784576861199:android:9dd5e21b9b46d51b",
+        "android_client_info": {
+          "package_name": "com.mincho.rockfingerspro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784576861199-8h4n1beitqd8mm7litu1mghl3fpd35st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mincho.rockfingerspro",
+            "certificate_hash": "92db7ee2a752af071e2a2ea93ce1b2b2fc4d2624"
+          }
+        },
+        {
+          "client_id": "784576861199-75r9jjtljta6bk9dru28ft8b38sp7duk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Rs4idMJYxab-XUBOlGL8BXGKwzWImL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784576861199-75r9jjtljta6bk9dru28ft8b38sp7duk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:menuCategory="container"
+        android:title="@string/menu_container"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:orderInCategory="102"
+                android:title="@string/menu_settings"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_log"
+                android:orderInCategory="100"
+                android:title="@string/menu_log"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_routines"
+                android:orderInCategory="101"
+                android:title="@string/menu_routines"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_about"
+                android:orderInCategory="103"
+                android:title="@string/menu_about"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

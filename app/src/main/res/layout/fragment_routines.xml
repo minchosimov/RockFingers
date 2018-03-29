@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.mincho.rockfingers.RoutinesActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/section_label"
+            style="@style/Routines.name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="15sp"
+            android:gravity="center" />
+
+        <TextView
+            style="@style/Routines.label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="15sp"
+            android:text="@string/short_label" />
+
+        <TextView
+            android:id="@+id/short_descr"
+            style="@style/Routines.descr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginStart="10sp" />
+
+        <ImageView
+            android:id="@+id/routine_bord_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="15sp"
+            android:contentDescription="@string/board_picture"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/routine_button_1"
+            style="@style/Routines.button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="15sp"
+            android:background="@color/green_button_routine"
+            android:text=""
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/routine_button_2"
+            style="@style/Routines.button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="15sp"
+            android:background="@color/green_button_routine"
+            android:text=""
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

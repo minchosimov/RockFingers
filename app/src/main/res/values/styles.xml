@@ -1,0 +1,255 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Style for action bar-->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!-- For the resting Spinner style -->
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+        <!-- For each individual Spinner list item once clicked on -->
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>
+
+    </style>
+    <!-- action bar style-->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white_txt</item>
+    </style>
+
+    <!-- spinner style-->
+    <style name="spinnerDropDownItemStyle" parent="@style/Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black_txt</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="@style/Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white_txt</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">5sp</item>
+    </style>
+
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/white_txt</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorControlNormal">@color/white_bg</item>
+    </style>
+
+    <!-- style for splash screen-->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <!-- alert dialog -->
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/gray_bg</item>
+        <item name="android:windowTitleStyle">@style/TitleStyleWindows</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="TitleStyleWindows" parent="AlertDialog.AppCompat.Light">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/black_txt</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white_bg</item>
+        <item name="android:background">@color/blue_bg</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white_bg</item>
+        <item name="android:background">@color/blue_bg</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- main activity style-->
+    <style name="MainActivity">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white_txt</item>
+    </style>
+
+    <style name="MainActivity.status">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="MainActivity.text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MainActivity.button">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Log activity style th for main text and td for rows-->
+    <style name="LogActivity">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white_txt</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LogActivity.th">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="LogActivity.td">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- edit routine style -->
+    <style name="EditActivity">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white_txt</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EditActivity.row">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="EditActivity.status">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EditActivity.edit">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Do routine style-->
+    <style name="DoRoutine">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/black_txt</item>
+
+    </style>
+
+    <style name="DoRoutine.main">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="DoRoutine.next">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="DoRoutine.nextMin">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="DoRoutine.button">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Routines style-->
+
+    <style name="Routines">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white_txt</item>
+    </style>
+
+    <style name="Routines.name">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Routines.label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="Routines.descr">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="Routines.button">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- About style-->
+
+    <style name="About">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/black_txt</item>
+    </style>
+
+    <style name="About.version">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="About.text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="About.button">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- setup style-->
+
+    <style name="Setting">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Setting.title">
+        <item name="android:textColor">@color/blue_bg</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Setting.label">
+        <item name="android:textColor">@color/grey_txt</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Setting.options">
+        <item name="android:textColor">@color/grey_txt</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Setting.button">
+        <item name="android:textColor">@color/white_txt</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

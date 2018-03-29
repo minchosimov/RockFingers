@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:layout_marginTop="20sp"
+            android:contentDescription="@string/image_logo"
+            android:src="@drawable/logo_about" />
+
+        <TextView
+            android:id="@+id/about_vesion"
+            style="@style/About.version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp" />
+
+        <TextView
+            style="@style/About.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/credits" />
+
+        <TextView
+            style="@style/About.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/developer" />
+
+        <TextView
+            style="@style/About.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/design" />
+
+        <TextView
+            style="@style/About.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:autoLink="email"
+            android:text="@string/emailv" />
+
+        <TextView
+            style="@style/About.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:autoLink="web"
+            android:text="@string/webv" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp"
+            android:background="@android:color/black" />
+
+        <Button
+            android:id="@+id/button_feed_back"
+            style="@style/About.button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_feedback_black_24dp"
+            android:drawableStart="@drawable/ic_feedback_black_24dp"
+            android:text="@string/feedback"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_rate"
+            style="@style/About.button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_star_rate_black_18dp"
+            android:drawableStart="@drawable/ic_star_rate_black_18dp"
+            android:text="@string/rate"
+            android:textAllCaps="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp"
+            android:background="@android:color/black" />
+
+        <TextView
+            style="@style/About.version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/copyright" />
+
+    </LinearLayout>
+</ScrollView>

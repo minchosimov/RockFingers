@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="settings">
+    <PreferenceCategory
+        android:key="Main"
+        android:order="1"
+        android:title="">
+        <com.mincho.rockfingers.TimeSettingsActivity
+            android:key="PullupSetting"
+            android:order="1"
+            android:summary="@string/description_time_seconds"
+            android:title="@string/title_time_setup" />
+        <com.mincho.rockfingers.util.MyEditTextPreference
+            android:dialogTitle="Enter pre-counting value from [3-10] seconds "
+            android:key="pre_count"
+            android:order="2"
+            android:summary="@string/desciption_precount"
+            android:title="@string/precount" />
+    </PreferenceCategory>
+</PreferenceScreen>
